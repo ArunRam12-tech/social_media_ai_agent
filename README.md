@@ -14,22 +14,43 @@ This project uses **Groq Llama-3 API** for text generation and **Streamlit** as 
 
 ## 📦 Installation
 
-Clone the repository:
-
-```bash
+1️⃣ Clone the Repository
 git clone https://github.com/ArunRam12-tech/social_media_ai_agent
 cd social_media_ai_agent
 
 
-##Install dependencies:
+2️⃣ Create a Virtual Environment (Recommended)
+python -m venv venv
+
+Activate it:
+
+Windows:
+
+venv\Scripts\activate
+
+Mac/Linux:
+
+source venv/bin/activate
+
+
+3️⃣ Install Dependencies
 pip install -r requirements.txt
 
 
-##Add your API key in a .env file:
-GROQ_API_KEY="your_api_key_here"
+4️⃣ Add Your API Key
+
+Create a file named .env in the root of the project and add:
+
+GROQ_API_KEY="YOUR_API_KEY_HERE"
 
 
-##Run the app:
+5️⃣ Run the Application
 streamlit run app.py
 
 
+6️⃣ Open in Browser
+
+Once running, Streamlit will open automatically.
+If not, go to:
+
+http://localhost:8501
